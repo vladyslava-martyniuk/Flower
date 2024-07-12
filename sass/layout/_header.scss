@@ -1,28 +1,33 @@
 .header {
   padding-top: 28px;
 }
+
 .header__container {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+
 .header__logo-link {
   font-size: 42px;
-  color: $text-color;
+  color: #000000;
 }
+
 .nav {
   font-weight: 400;
   font-size: 20px;
-  color: $text-color;
-  margin-left: 261px;
-  .list {
-    display: flex;
-    gap: 24px;
-  }
+  color: #000000;
+  margin-left: 161px;
 }
+.nav .list {
+  display: flex;
+  gap: 24px;
+}
+
 .nav__link {
-  color: $text-color;
+  color: #000000;
 }
+
 .btn-info {
   background-color: transparent;
   border-color: transparent;
