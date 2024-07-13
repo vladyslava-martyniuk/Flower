@@ -1,0 +1,33 @@
+.about {
+  padding-bottom: 100px;
+}
+.about__title {
+  font-weight: 700;
+  font-size: 44px;
+  color: $text-color;
+  margin-right: 12px;
+}
+.about__main-div {
+  display: flex;
+  align-items: center;
+}
+.about__box {
+  width: 1000px;
+  height: 1px;
+  background-color: $text-color;
+}
+.about__div {
+  display: flex;
+  align-items: center;
+  margin-top: 53px;
+}
+.about__div-text {
+  font-weight: 400;
+  font-size: 22px;
+  color: $text-color;
+  margin-right: 60px;
+}
+.about__div-img {
+  width: 600px;
+  height: 300px;
+}
